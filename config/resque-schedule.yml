@@ -1,0 +1,7 @@
+send_unsent_texts:
+    every:
+        - "30m"
+    class: "Textor"
+    queue: textor
+    discription: "This job will attempt to resend any failed messages"
+
